@@ -1,7 +1,6 @@
 package design.patterns.project.service;
 
 import design.patterns.project.model.Cliente;
-import org.springframework.stereotype.Service;
 
 /**
  * Interface que define o padrão <b>Strategy</b> no domínio de cliente. Com
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Service;
  * interface.
  *
  */
-@Service
 public interface ClienteService {
 
     Iterable<Cliente> buscarTodos();
